@@ -19,7 +19,7 @@
 }
 
 .user-menu__profiles .user-menu__item {
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 0rem;
 }
 .user-menu__profiles {
   margin-left: 2rem;
@@ -59,6 +59,11 @@
 }
 .user-menu:hover .show-hover,
 .user-menu:hover .user-profile__title {
+  display: block;
+}
+
+.user-menu.active .show-hover,
+.user-menu.active .user-profile__title {
   display: block;
 }
 
